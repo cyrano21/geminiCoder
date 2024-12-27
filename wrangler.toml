@@ -4,12 +4,14 @@ name = "geminiCoder"
 # ID du compte Cloudflare
 account_id = "b3c5e8434d2a5eba92cc671e49edf7ca"
 
-# Configuration pour Pages
+# Type de projet
 type = "javascript"
+
+# Date de compatibilité avec Cloudflare
 compatibility_date = "2024-12-27"
 
 # Répertoire de sortie de la build pour Pages
-pages_build_output_dir = "./dist" # Remplacez "dist" par votre répertoire de sortie réel.
+pages_build_output_dir = "dist" # Remplacez "dist" par votre répertoire de build réel.
 
-# Compatibilité Node.js
+# Activation de la compatibilité Node.js si nécessaire
 node_compat = true
