@@ -1,0 +1,28 @@
+# Nom du projet
+name = "geminiCoder" # Remplacez par le nom de votre projet
+
+# Type de projet
+type = "javascript"
+
+# ID du compte Cloudflare
+account_id = "b3c5e8434d2a5eba92cc671e49edf7ca"
+
+
+# Date de compatibilité
+compatibility_date = "2024-12-27" # Remplacez par la date actuelle
+
+# Utilisation de l'environnement de développement des Workers
+workers_dev = true
+
+# Configuration du répertoire de build
+[build]
+command = "npm run build" # Commande pour construire votre projet
+cwd = "." # Répertoire de travail actuel
+upload = { dir = "dist" } # Répertoire contenant les fichiers à déployer
+
+# Variables d'environnement
+[env.production]
+NODE_ENV = "production"
+
+# Activation de la compatibilité Node.js
+node_compat = true
